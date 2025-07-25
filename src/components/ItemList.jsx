@@ -2,7 +2,6 @@ import React from 'react';
 import Item from '../components/Item';
 
 const ItemList = ({ products }) => {
-    console.log("DEBUG: ItemList - Products recibidos:", products);
 
     if (!Array.isArray(products)) {
         return <p className="alert alert-danger">Error: No se pudieron mostrar los productos.</p>;
